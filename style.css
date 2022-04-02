@@ -59,6 +59,7 @@ li a {
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
+    
 
 }
 
@@ -68,6 +69,10 @@ li a {
     text-transform: uppercase;
     margin-bottom: 15px;
 }
+
+.hero-content p {
+    margin-bottom: 15px;
+}
 .hero-img {
     height: auto;
     width: 30rem;
@@ -75,4 +80,32 @@ li a {
 img {
     height: 100%;
     width: 100%;
+}
+
+.info-section {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    height: 450px;
+    background-color: #131313;
+}
+
+.info-img-content, .info-content {
+    display: flex;
+    
+}
+.info-img {
+    border: 5px solid #ffffff;
+    width: 150px;
+    height: 150px;
+    border-radius: 10%;
+    margin: 15px;
+}
+
+.info-para {
+    width: 150px;
+    height: 150px;
+    border-radius: 10%;
+    margin: 15px;
 }
