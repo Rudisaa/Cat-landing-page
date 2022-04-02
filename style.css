@@ -113,10 +113,12 @@ img {
     border: 5px solid #ffffff;
     width: 175px;
     height: 175px;
-    border-radius: 10%;
+    border-radius: 15%;
     margin: 15px;
     z-index: 999;
+    overflow: hidden;
 }
+
 
 .info-para {
     width: 175px;
