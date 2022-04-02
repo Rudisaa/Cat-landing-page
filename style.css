@@ -28,6 +28,7 @@ nav {
 nav ul {
     display: flex;
     list-style: none;
+    margin-right: 15px;
 }
 
 li a {
@@ -43,14 +44,22 @@ li a {
     color: #ffffff;
     font-weight: 900;
     font-size: 24px;
+    margin-left: 15px;
 }
 
-.hero-container {
+.hero-section {
+    height: 550px;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 500px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 15px;
+    width: 92%;
 }
 
 .hero-content {
@@ -59,8 +68,6 @@ li a {
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
-    
-
 }
 
 .hero-content h1 {
@@ -121,5 +128,30 @@ img {
 }
 
 .quote-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
     height: 450px;
 }
+.quote-section p {
+    font-size: 36px;
+}
+
+.quote-footer {
+    align-self: flex-end;
+}
+
+.quote-footer span {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+footer {
+    align-items: center;
+    background-color: #131313;
+    display: flex;
+    color: #ffffff;
+    justify-content: center;
+    padding: 30px;
+}   
