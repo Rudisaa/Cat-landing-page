@@ -113,10 +113,14 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: center;    
-    height: 450px;
+    height: 500px;
     background-color: #131313;
 }
-
+.info-section h2 {
+    color: #ffffff;
+    margin: 18px;
+    text-transform: uppercase;
+}
 .info-img-content, .info-content {
     display: flex;
     
